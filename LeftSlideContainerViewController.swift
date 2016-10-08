@@ -65,7 +65,7 @@ class LeftSideContainerViewController: UIViewController, UIScrollViewDelegate {
       
       //prepare for fisrt time animation.
       //Fist time, move leftView in to Screen bound for render
-      leftView.frame.origin.x = 300
+      leftView.frame.origin.x = leftView.bounds.width
       settupAnimation()
       leftView.frame.origin.x = 0
       
